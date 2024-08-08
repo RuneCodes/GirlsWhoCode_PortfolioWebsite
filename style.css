@@ -1,0 +1,148 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+* {
+  margin: 0px;
+  padding: 0px;
+ } 
+
+:root {
+  --background-color: #eef3e5;
+  --darkgreen-color: #637457;
+  --dark-color: black;
+}
+
+/* STYLE SECTIONING TAGS */
+body {
+  background-color: var(--background-color); 
+  margin: 0;
+}
+
+header {
+  background-image: url("assets/film2.jpg");
+  text-align: center;
+  padding: 90px 0;
+  color: var(--background-color);
+  backdrop-filter: blur(5px);
+  height: 120px;
+}
+
+main {
+  text-align: center;
+}
+
+.textimage {
+  float: left;
+  max-width: 100%;
+  display: inline;
+  margin-right: 2%;
+}
+
+img[src*="profilepicture2"] {
+  width: 40%;
+  height: auto;
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  float: left;
+}
+
+.About {
+  line-height: 2.2;
+  text-align: justify;
+  color: var(--dark-color);
+  padding-left: 2%;
+}
+
+.Badger {
+  float: below;
+}
+
+.MatildaBackground {
+  background-image: url("assets/soundboard2.jpg");
+  /* filter: blur(1px); */
+  background-position: top;
+  background-size: cover;
+  height: 100px;
+
+  text-align: center;
+  color: var(--background-color);
+  padding: 30px 0;
+  
+}
+
+.MatildaPicture {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-color);
+}
+
+.MatildaPicture img {
+  width: 100%;
+  height: 70%;
+}
+
+.MatildaText {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: justify;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-family: Wittgenstein, "Times New Roman", Serif;
+  font-size: 55px;
+  margin-top: 0;
+}
+
+h2 {
+  font-family: Wittgenstein, "Times New Roman", Serif;
+  font-size: 30px;
+  font-style: italic;
+}
+h3 {
+  color: var(--dark-color);
+  font-family: Wittgenstein, "Times New Roman", Serif;
+  font-size: 30px;
+}
+
+h4 {
+  color: var(--dark-color);
+  font-family: Wittgenstein, "Times New Roman", Serif;
+  font-size: 25px;
+
+}
+
+p {
+  color: var(--dark-color);  
+  font-family: Wittgenstein, "Times New Roman", Serif;
+  font-size: 15px;
+}
+
+/* STYLE IMAGES */
+img {
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  width: auto;
+  height: auto;
+  list-style-type: none;
+  text-align: right;
+  background-color: var(--darkgreen-color);
+  padding: 10px;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: var(--background-color);
+  text-decoration: none;
+  padding-right: 10px;
+}
